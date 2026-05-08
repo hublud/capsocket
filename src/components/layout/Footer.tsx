@@ -17,7 +17,7 @@ export function Footer() {
           <h3 className="text-white font-heading font-semibold text-lg mb-6">Contact</h3>
           <ul className="space-y-4 text-sm">
             <li>
-              <span className="block text-white/50 text-xs mb-1">Registered Address</span>
+              <span className="block text-white/50 text-xs mb-1">Address</span>
               75 Shelton Street<br />
               London WC1H 9JQ<br />
               United Kingdom

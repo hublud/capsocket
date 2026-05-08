@@ -28,7 +28,7 @@ export function Contact() {
                 <MapPin size={24} />
               </div>
               <div>
-                <h4 className="font-heading font-bold text-charcoal mb-1">Registered Address</h4>
+                <h4 className="font-heading font-bold text-charcoal mb-1">Address</h4>
                 <p className="text-charcoal/60">75 Shelton Street, London WC1H 9JQ, United Kingdom</p>
               </div>
             </div>
