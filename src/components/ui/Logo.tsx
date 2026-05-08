@@ -13,7 +13,7 @@ export function Logo({ className }: { className?: string }) {
       <img
         src="/logo.png"
         alt="CapSocket Logo"
-        className="h-28 w-auto object-contain block mix-blend-multiply brightness-110 contrast-125"
+        className="h-14 w-auto object-contain block mix-blend-multiply"
         onError={(e) => {
           e.currentTarget.style.display = 'none';
           e.currentTarget.nextElementSibling?.classList.remove('hidden');
