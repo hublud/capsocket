@@ -13,18 +13,19 @@ export function Logo({ className }: { className?: string }) {
       <img
         src="/logo.png"
         alt="CapSocket Logo"
-        className="h-10 w-auto object-contain block"
+        className="h-16 w-auto object-contain block mix-blend-multiply"
         onError={(e) => {
           e.currentTarget.style.display = 'none';
           e.currentTarget.nextElementSibling?.classList.remove('hidden');
         }}
       />
-      <span className="hidden font-heading font-bold text-2xl tracking-tight text-primary">
+      <span className="hidden font-heading font-bold text-3xl tracking-tight text-primary">
         CapSocket<span className="text-primary italic">®</span>
       </span>
     </div>
   );
 }
+
 
 
 
